@@ -13,6 +13,7 @@ export default function FetchData(){
         <>
         <button onClick={fetchApi}>FetchData</button>
         {JSON.stringify(state)}
+        <div>-------------------------------------------------------------</div>
         </>
     )
 }

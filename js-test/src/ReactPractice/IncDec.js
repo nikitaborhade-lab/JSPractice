@@ -16,6 +16,7 @@ export default function IncDec(){
         <button onClick={increament}>+</button>
         {state}
         <button onClick={decreament}>-</button>
+        <div>-------------------------------------------------------------</div>
         </>
     )
 }
