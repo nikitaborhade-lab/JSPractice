@@ -13,11 +13,11 @@ export default function Sample(){
                         <li><Link to = "/about">About</Link></li>
                     </ul>
                 </nav>
+
                 <Routes>
-                <Route path="/" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                </Routes>
-                
+                </Routes>   
             </div>
             <div>-------------------------------------------------------------</div>
         </Router>

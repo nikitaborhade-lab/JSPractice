@@ -7,6 +7,9 @@ import SortArray from './JSPractice/SortArray';
 import LargestNo from './JSPractice/LargestNo';
 import IncDec from './ReactPractice/IncDec';
 import RouterTest from './ReactPractice/Router/RouterTest'
+import Vowels from './JSPractice/Vowels';
+import Factorial from './JSPractice/Factorial';
+import Fibonacci from './JSPractice/Fibonacci';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <LargestNo />
           <IncDec />
           <RouterTest />
+          <Vowels />
+          <Factorial />
+          <Fibonacci />
         {/* </a> */}
       </header>
     </div>
