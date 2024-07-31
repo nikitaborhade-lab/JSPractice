@@ -11,7 +11,13 @@ import Vowels from './JSPractice/Vowels';
 import Factorial from './JSPractice/Factorial';
 import Fibonacci from './JSPractice/Fibonacci';
 
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement } from './ReduxCode/actions';
+
 function App() {
+  const count = useSelector(state => state.count);
+  const dispatch = useDispatch();
   return (
     <div className="App">
       <header className="App-header">
@@ -32,6 +38,10 @@ function App() {
           <Vowels />
           <Factorial />
           <Fibonacci />
+
+      <h1>Count: {count}</h1>
+      <button onClick={() => dispatch(increment())}>Increment</button>
+      <button onClick={() => dispatch(decrement())}>Decrement</button>
         {/* </a> */}
       </header>
     </div>
