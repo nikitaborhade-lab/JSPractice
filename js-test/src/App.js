@@ -10,6 +10,8 @@ import RouterTest from './ReactPractice/Router/RouterTest'
 import Vowels from './JSPractice/Vowels';
 import Factorial from './JSPractice/Factorial';
 import Fibonacci from './JSPractice/Fibonacci';
+import ChangeColor from './ReactPractice/ChangeColor'
+// import Counter from './ReactPractice/Counter';
 
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -38,6 +40,8 @@ function App() {
           <Vowels />
           <Factorial />
           <Fibonacci />
+          <ChangeColor />
+          {/* <Counter /> */}
 
       <h1>Count: {count}</h1>
       <button onClick={() => dispatch(increment())}>Increment</button>

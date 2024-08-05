@@ -11,3 +11,12 @@ else{
      console.log("String is not Palindrome")
 }
 }
+
+// reverse string using buildin functions
+
+// export default function Palindrome(){
+//     let str = "Nikita";
+//     let newStr = '';
+//     newStr = str.split('').reverse().join('')
+//     console.log(newStr);
+// }
