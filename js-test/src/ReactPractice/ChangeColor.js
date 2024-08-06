@@ -11,6 +11,7 @@ export default function ChangeColor(){
             <button onClick = {changeColor}
                 style = {{backgroundColor : state ? 'yellow': 'pink' }}>
             Click Me</button>
+            <div>-------------------------------------------------------------</div>
         </>
     )
 }

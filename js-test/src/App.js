@@ -11,7 +11,7 @@ import Vowels from './JSPractice/Vowels';
 import Factorial from './JSPractice/Factorial';
 import Fibonacci from './JSPractice/Fibonacci';
 import ChangeColor from './ReactPractice/ChangeColor'
-// import Counter from './ReactPractice/Counter';
+import Counter from './ReactPractice/Counter';
 
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -23,12 +23,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        > */}
           <CharCount /> 
           <Palindrome />
           <RemoveDuplicate />
@@ -41,12 +35,13 @@ function App() {
           <Factorial />
           <Fibonacci />
           <ChangeColor />
-          {/* <Counter /> */}
+          <Counter />
 
-      <h1>Count: {count}</h1>
+      <h4>Count Using Redux</h4>
       <button onClick={() => dispatch(increment())}>Increment</button>
+      <h3>Count: {count}</h3>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
-        {/* </a> */}
+      <div>-------------------------------------------------------------</div>
       </header>
     </div>
   );
