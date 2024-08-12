@@ -12,6 +12,7 @@ import Factorial from './JSPractice/Factorial';
 import Fibonacci from './JSPractice/Fibonacci';
 import ChangeColor from './ReactPractice/ChangeColor'
 import Counter from './ReactPractice/Counter';
+import SortObject from './JSPractice/SortObject';
 
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -36,6 +37,7 @@ function App() {
           <Fibonacci />
           <ChangeColor />
           <Counter />
+          <SortObject />
 
       <h4>Count Using Redux</h4>
       <button onClick={() => dispatch(increment())}>Increment</button>
