@@ -13,6 +13,9 @@ import Fibonacci from './JSPractice/Fibonacci';
 import ChangeColor from './ReactPractice/ChangeColor'
 import Counter from './ReactPractice/Counter';
 import SortObject from './JSPractice/SortObject';
+import EffectSample from './ReactPractice/Hooks/EffectSample';
+import Parent from './ReactPractice/Parent'
+// import AsyncAwait from './JSPractice/AsyncAwait'
 
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -38,6 +41,8 @@ function App() {
           <ChangeColor />
           <Counter />
           <SortObject />
+          <EffectSample />
+          <Parent />
 
       <h4>Count Using Redux</h4>
       <button onClick={() => dispatch(increment())}>Increment</button>
