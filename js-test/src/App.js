@@ -43,6 +43,7 @@ function App() {
           <SortObject />
           <EffectSample />
           <Parent />
+          {/* <AsyncAwait /> */}
 
       <h4>Count Using Redux</h4>
       <button onClick={() => dispatch(increment())}>Increment</button>

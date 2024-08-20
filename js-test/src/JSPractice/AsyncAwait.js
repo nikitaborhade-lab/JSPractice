@@ -1,9 +1,21 @@
 
-// export default async function AsyncAwait(){
-//     // const response = await fetch('https://jsonplaceholder.typicode.com/users');
-//     // const data = await response.json();
-//     // console.log(data)
+// const p = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Promise Resolved Value!")
+//     }, 10000)
+// })
 
-//      return Promise.resolve("data");
+// export default async function AsyncAwait(){
+//     console.log("Hello");
+//     const val = await p;
+//     console.log("Namaste Nikita");
+//     console.log(val);
+
+//     const val2 = await p;
+//     console.log("Namaste Nikita 2");
+//     console.log(val2);
 // }
 
+
+
+// AsyncAwait();
