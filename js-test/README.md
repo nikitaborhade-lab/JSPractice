@@ -72,3 +72,64 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 // check usage of codespace monthly here under the block of codespace
 // https://github.com/settings/billing/summary
+
+****JavaScript****
+Palindrom--
+Remove Duplicate--
+Char count--
+Largest Number--
+Sort an array--
+Sort an object--
+Factorial--
+Fibonacci--
+Vowels
+swap the values without using temp variable
+Change char in capital/small--
+access elements from object using map UBS
+
+****React****
+Counter--
+Increment decrement--
+Change Color of button--
+Fetch data from api--
+Write Class component
+Write code for useEffect--
+Pass data from parent to child--
+Pass data from child to parent
+
+****JavaScript & React concept examples****
+HOC
+HOF
+IIFE--
+loops--
+closure--
+callback--
+callback hell--
+Rest, spread--1
+destructuring--
+default parameter--
+Write promises
+async/await
+fetch()--
+axios()--
+slice(),splice()--
+call(),apply(),bind()--
+map(),filter(),reducer()--
+ways to create object--
+ways to create array--
+Generator function--
+function currying--
+factory function--
+shallow & deep copy
+
+useState()--
+useEffect()--
+useCallback()
+useContext()
+useMemo()
+
+lazy loading
+redux store	
+
+
+

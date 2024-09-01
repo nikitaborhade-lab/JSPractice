@@ -11,11 +11,16 @@ export default function IncDec(){
         setState(state-1)
     }
 
+    function reset() {
+        setState(0)
+      }    
+
     return(
         <>
         <button onClick={increament}>+</button>
         {state}
         <button onClick={decreament}>-</button>
+        <button onClick={reset}>Reset</button>
         <div>-------------------------------------------------------------</div>
         </>
     )
