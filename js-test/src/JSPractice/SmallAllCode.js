@@ -13,7 +13,7 @@ export default function SmallAllCode(){
        console.log(sample2);
 
        let sum = 5 + 10;
-   debugger; // Execution will pause here
+   // debugger; // Execution will pause here
    return sum;
 }
 

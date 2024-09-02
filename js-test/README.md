@@ -83,7 +83,7 @@ Sort an object--
 Factorial--
 Fibonacci--
 Vowels
-swap the values without using temp variable
+swap the values without using temp variable--
 Change char in capital/small--
 access elements from object using map UBS
 
@@ -92,14 +92,14 @@ Counter--
 Increment decrement--
 Change Color of button--
 Fetch data from api--
-Write Class component
+Write Class component--
 Write code for useEffect--
 Pass data from parent to child--
 Pass data from child to parent
 
 ****JavaScript & React concept examples****
-HOC
-HOF
+HOC-- function(component) or return component
+HOF-- function(function) or return function4
 IIFE--
 loops--
 closure--
