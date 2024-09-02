@@ -260,3 +260,12 @@ function person(name,age){
 const person12 = person("nikita", 28);
 console.log(person12.age)
 // ----------------------------------------------------------
+
+// swap numbers without using temp variable
+
+let a = 10;
+let b = 20;
+
+[a,b] = [b,a]
+console.log(a,b)
+// ----------------------------------------------------------

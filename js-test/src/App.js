@@ -16,6 +16,7 @@ import SortObject from './JSPractice/SortObject';
 import EffectSample from './ReactPractice/Hooks/EffectSample';
 import Parent from './ReactPractice/Parent';
 import SmallAllCode from './JSPractice/SmallAllCode'
+import ClassCompo from './ReactPractice/ClassCompo'
 // import AsyncAwait from './JSPractice/AsyncAwait'
 
 import React from 'react';
@@ -45,6 +46,7 @@ function App() {
           <EffectSample />
           <Parent />
           <SmallAllCode />
+          <ClassCompo />
           {/* <AsyncAwait /> */}
 
       <h4>Count Using Redux</h4>
