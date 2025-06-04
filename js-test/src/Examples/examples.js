@@ -285,7 +285,7 @@ const obj = {
     name: 'Nikita',
     age: 28
 }
-const copied = structuredClone(obj);    // using structuredClone
+// const copied = structuredClone(obj);    // using structuredClone
 const copied = JSON.parse(JSON.stringify(obj)); // using JSON.parse and JSON.stringify
 copied.name = 'test';   
 console.log(copied);
