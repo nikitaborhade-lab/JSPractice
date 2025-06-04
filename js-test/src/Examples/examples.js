@@ -269,3 +269,24 @@ let b = 20;
 [a,b] = [b,a]
 console.log(a,b)
 // ----------------------------------------------------------
+// Shallow copy
+
+const obj = {
+    name: 'Nikita',
+    age: 28
+}
+const copied = obj;
+copied.name = 'test';
+console.log(copied);
+console.log(obj);
+
+//  Deep copy
+const obj = {
+    name: 'Nikita',
+    age: 28
+}
+const copied = structuredClone(obj);    // using structuredClone
+const copied = JSON.parse(JSON.stringify(obj)); // using JSON.parse and JSON.stringify
+copied.name = 'test';   
+console.log(copied);
+console.log(obj);
