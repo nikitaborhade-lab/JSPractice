@@ -11,7 +11,7 @@ for(let i=0; i<arr.length; i++){
 console.log(exists)
 
 let most = 0;
-let mostvaleu = null
+let mostvalue = null
 
 for(let key in exists){
     if(exists[key] > most){
