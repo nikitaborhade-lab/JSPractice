@@ -34,3 +34,20 @@ for(let i=0; i<arr.length; i++){
         }
     }
 }
+
+
+// find 3rd large element from array
+
+let arr = [2,6,3,1,8,9];
+
+const test = arr.sort();
+const unique = [...new Set(test)];
+console.log(unique);
+let third;
+for(let i= 0; i<arr.length; i++){
+    if(arr.length>=3){
+        third  = arr[2]
+    }
+}
+console.log(third);
+
